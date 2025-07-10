@@ -173,8 +173,31 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# macOS system files
-**/.DS_Store
+# Python virtual environment
+.venv/
+.env/
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac OS files (optional but common)
+.DS_Store
 .AppleDouble
 .LSOverride
+
+# Jupyter runtime and metadata
+.jupyter/
+.jupyter_cache/
+.python_history
+
+# ipython history (used by Jupyter and IPython)
+.ipython/
+
+# pyenv local environment version file (if using pyenv)
+.python-version
+
+
+
