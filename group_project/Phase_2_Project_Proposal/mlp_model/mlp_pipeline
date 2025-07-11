@@ -1,0 +1,13 @@
+// Phishing Email Detection MLP Pipeline
+digraph {
+	rankdir=LR
+	A [label="Raw Emails (Text)"]
+	B [label="Preprocessing & TF-IDF Vectorizer"]
+	C [label="MLP Model
+(Dense→Dropout→Dense→Dropout→Output)"]
+	D [label="Prediction
+(Phishing/Legit)"]
+	A -> B
+	B -> C
+	C -> D
+}
