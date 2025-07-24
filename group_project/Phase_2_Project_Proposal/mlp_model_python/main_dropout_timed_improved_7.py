@@ -159,7 +159,15 @@ def main():
             ]
         )
         model.compile(
-            optimizer=Adam(1e-3), loss="binary_crossentropy", metrics=["accuracy"]
+            optimizer=Adam(learning_rate=1e-3),
+            loss="binary_crossentropy",
+            metrics=[
+                tf.keras.metrics.BinaryAccuracy(name="acc"),
+                tf.keras.metrics.Precision(name="precision"),
+                tf.keras.metrics.Recall(name="recall"),
+                tf.keras.metrics.AUC(curve="ROC", name="roc_auc"),
+                tf.keras.metrics.AUC(curve="PR", name="pr_auc"),
+            ],
         )
 
         history = model.fit(
