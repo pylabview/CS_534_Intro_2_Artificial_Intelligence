@@ -1,0 +1,24 @@
+Figure 3: Random Forest Model Pipeline 
+Figure 4: XG Boost Pipeline
+Figure 5:  MLP Pipeline
+Figure 6:Top Random Forest Parameter Combinations – Hyperparameter sets ranked by mean cross-validation accuracy
+Figure 7:Top XGBoost Parameter Combinations – Hyperparameter sets ranked by mean cross-validation accuracy
+Figure 8: Random Forest Confusion Matrix: Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 9: XGBoost Confusion Matrix: Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 10: Random Forest Learning Curve: Training and validation accuracy trends across varying training sizes
+Figure 11: XGBoost: Training and validation accuracy trends across varying training sizes
+Figure 12: Random Forest Confusion Matrix(Grid Search): Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 13: XGBoost Confusion Matrix (Grid Search): Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 14: Random Forest Confusion Matrix(Test Set): Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 15: XGBoost Confusion Matrix (Test Set): Bar chart breakdown of TP, TN,FP,FN on validation set
+Figure 16: Random Forest ROC Curve: Receiver Operating Characteristic curve showing model performance on the test set with an AUC of 0.996.
+Figure 17: Random Forest Precision-Recall  Curve: Precision vs. recall curve on the test set with an Average Precision (AP) of 0.997
+Figure 18: XGBoost  ROC Curve: Receiver Operating Characteristic curve showing model performance on the test set with an AUC of 0.998.
+Figure 19: XGBoost Precision-Recall  Curve: Precision vs. recall curve on the test set with an Average Precision (AP) of 0.998
+Figure 20: XGBoost Ten Top Model Performers by F-1 ranking
+Figure 21: Per-limilary MLP Model Loss History showing overfitting
+
+Figure 22: Champion MLP Model Loss History showing some variance, but performing well overtime 
+Figure 23: Champion MLP Model Confusion Matrix
+
+Figure 24: Champion MLP Model Precision-Recall and ROC Curves

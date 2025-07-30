@@ -1,0 +1,20 @@
+Code 1: A snippet from the beginning of our url_extraction class. Here, we see self.urlextract set up with Jan Lipovský’s URLExtract class, as well as self.regex being set up with a complicated regular expression for URL detection. By combining these two approaches, we can catch more URLs than either does alone.
+
+Code 2: Our string_extractor() function, part of the url_extraction class. This function uses both URLExtract and RegEx to maximize the extracted URLs for our dataset.
+
+Code 3: Hyper Parameters for Random Forest Model
+
+Code 4: Hyper Parameters for XGBoost Model
+
+Code 5: Core Functions for  XGBoost Model (1)
+
+
+Code 5: Core Functions for  XGBoost Model (2)
+
+Code 5: Core Functions for  XGBoost Model (3)
+
+Code 6: MLP Pseudo-code
+
+Code 7: MLP Model Early Stopping, Train Model History, Training Timeout and Best Model Check Logic Python code
+
+Code 8: MLP Model Helper Functions Python Code
